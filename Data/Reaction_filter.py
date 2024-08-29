@@ -1,10 +1,14 @@
-# Create a filter that checks if the components on the reactions from rxnInfo has an identified SMILE from the metInfo data
-import math
+"""
+Created on Tue Mar 28 13:04:51 2023
+Create a filter that checks if the components on the reactions from rxnInfo has an identified SMILE from the metInfo data
+@author: diegodelozada
+"""
 
+import math
 import numpy
 import pandas as pd
 
-comp = pd.read_excel(r'ModelSEED_metInfo_1.xlsx')
+comp = pd.read_excel(r'ModelSEED_metInfo_complete.xlsx')
 reac = pd.read_excel(r'ModelSEED_rxnInfo.xlsx')
 
 Smiles = comp.ISOMETRIC_SMILES
