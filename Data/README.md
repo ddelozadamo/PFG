@@ -1,0 +1,3 @@
+complete_data.py -> Se guardan los Smiles de las reacciones de metInfo
+Reaction_filter.py -> Se filtran las reacciones a las que no se les puede gener un reaction smile
+similarity.r -> Forma la matriz de similitud etre todos los metabolitos
