@@ -1,0 +1,1 @@
+ - Para la automatización del uso de las herramientas E-zyme y E-zyme2 se ha utilizado el paquete de python Selenium (https://selenium-python.readthedocs.io/)
