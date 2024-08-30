@@ -2,8 +2,7 @@ import os
 import shutil
 import pandas as pd
 
-# Este código es para reducir el tamaño de la carpeta de input para BridgIT, lo que hace es quedarse con una cierta cantidad
-# reacciones y busca los molfiles necesarios para estas
+# Este código es para reducir el tamaño de la carpeta de molfiles para BridgIT. Se guardan solo los molfiles necesarios para las reacciones que se estan analizando
 directorio = 'molfiles'
 carpeta_destino = 'molfiles_reduced'
 
