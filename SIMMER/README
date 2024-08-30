@@ -1,1 +1,7 @@
+- Todos los archivos necesarios para correr la herramienta SIMMER se pueden encontrar en https://github.com/aebustion/SIMMER
 
+- El script para preparar los datos para lanzar la herramienta es SIMMER_input.py
+Para procesar los resultados de la herramienta:
+1. EC_predictions.py
+2. enzyme_predictions.py
+3. extract.py
