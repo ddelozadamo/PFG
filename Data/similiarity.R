@@ -1,7 +1,7 @@
 library(RxnSim)
 library(readxl)
 
-met_info <- read_excel("/Users/diegodelozada/PycharmProjects/PFG/Data/modelSEED_metInfo_1.xlsx")
+met_info <- read_excel("/modelSEED_metInfo_complete.xlsx")
 met_info$CANONICAL_SMILES[met_info$CANONICAL_SMILES == 0] <- NA
 met_info_clean <- met_info[!is.na(met_info$CANONICAL_SMILES), ]
 smiles <- met_info_clean$CANONICAL_SMILES
