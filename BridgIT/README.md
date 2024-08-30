@@ -4,3 +4,6 @@ Preparación de los datos para lanzar BridgIT
 2. Reactions_to_BridgIT.py
 3. Reduced_input_BridgIT.py
 4. Project_systemflie.py
+
+Procesado de los resultados
+1. Results_BridgIT
