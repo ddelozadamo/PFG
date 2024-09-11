@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-directorio = '/Users/diegodelozada/E-zyme/SelenzymeRF_results/'
+directorio = '/Users/diegodelozada/SelenzymeRF/SelenzymeRF_results/'
 
 archivos_csv = [f for f in os.listdir(directorio) if f.endswith('.csv')]
 df_ec_numbers = pd.read_excel('/Users/diegodelozada/E-zyme/modelSEED_EC_Numbers.xlsx')
